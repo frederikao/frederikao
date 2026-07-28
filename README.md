@@ -7,7 +7,9 @@
 **A life built with intention.**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Frederika_Onofrejova-7A858D?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/frederikaonofrejova/)
-![Personal website](https://img.shields.io/badge/Personal_Website-In_Development-897B70?style=for-the-badge&logo=googlechrome&logoColor=white)
+[![Website](https://img.shields.io/badge/Website-frederikaonofrejova.netlify.app-897B70?style=for-the-badge&logo=googlechrome&logoColor=white)](https://frederikaonofrejova.netlify.app/)
+[![Instagram](https://img.shields.io/badge/Instagram-hautefroufrou-8A6F5D?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/hautefroufrou)
+[![GitHub](https://img.shields.io/badge/GitHub-frederikao-343330?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frederikao)
 
 </div>
 
@@ -69,3 +71,6 @@ or spending time with my husband and Gaston, our much-loved French bulldog.
 ## Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-7A858D?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/frederikaonofrejova/)
+[![Website](https://img.shields.io/badge/Website-Visit-897B70?style=for-the-badge&logo=googlechrome&logoColor=white)](https://frederikaonofrejova.netlify.app/)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow_HFF-8A6F5D?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/hautefroufrou)
+[![GitHub](https://img.shields.io/badge/GitHub-frederikao-343330?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frederikao)
