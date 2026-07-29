@@ -9,7 +9,7 @@ import { siteContent } from "@/lib/site-content";
 export const metadata: Metadata = {
   title: "HFF",
   description:
-    "HFF is Frederika Onofrejova’s independent editorial project about shopping, quality, value, personal style, and the psychology of a good find.",
+    "HFF is Frederika Onofrejová’s independent editorial project about shopping, quality, value, personal style, and the psychology of a good find.",
 };
 
 const themes = [

@@ -20,21 +20,21 @@ const serif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL(siteContent.siteUrl),
   title: {
-    default: "Frederika Onofrejova | A Life Built with Intention",
-    template: "%s | Frederika Onofrejova",
+    default: "Frederika Onofrejová | A Life Built with Intention",
+    template: "%s | Frederika Onofrejová",
   },
   description: siteContent.description,
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
-    title: "Frederika Onofrejova | A Life Built with Intention",
+    title: "Frederika Onofrejová | A Life Built with Intention",
     description: siteContent.description,
     url: siteContent.siteUrl,
     siteName: siteContent.name,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Frederika Onofrejova | A Life Built with Intention",
+    title: "Frederika Onofrejová | A Life Built with Intention",
     description: siteContent.description,
   },
   icons: { icon: "/favicon.svg" },

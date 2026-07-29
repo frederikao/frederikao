@@ -1,15 +1,16 @@
 <div align="center">
 
-# Frederika Onofrejova
+# Frederika Onofrejová
 
 ### Finance leader · Founder of HFF
 
 **A life built with intention.**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Frederika_Onofrejova-7A858D?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/frederikaonofrejova/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Frederika_Onofrejov%C3%A1-7A858D?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/frederikaonofrejova/)
 [![Website](https://img.shields.io/badge/Website-frederikaonofrejova.netlify.app-897B70?style=for-the-badge&logo=googlechrome&logoColor=white)](https://frederikaonofrejova.netlify.app/)
 [![Instagram](https://img.shields.io/badge/Instagram-hautefroufrou-8A6F5D?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/hautefroufrou)
 [![GitHub](https://img.shields.io/badge/GitHub-frederikao-343330?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frederikao)
+[![Email](https://img.shields.io/badge/Email-frederikao%40gmail.com-6F6259?style=for-the-badge&logo=gmail&logoColor=white)](mailto:frederikao@gmail.com)
 
 </div>
 
@@ -74,3 +75,4 @@ or spending time with my husband and Gaston, our much-loved French bulldog.
 [![Website](https://img.shields.io/badge/Website-Visit-897B70?style=for-the-badge&logo=googlechrome&logoColor=white)](https://frederikaonofrejova.netlify.app/)
 [![Instagram](https://img.shields.io/badge/Instagram-Follow_HFF-8A6F5D?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/hautefroufrou)
 [![GitHub](https://img.shields.io/badge/GitHub-frederikao-343330?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frederikao)
+[![Email](https://img.shields.io/badge/Email-Say_Hello-6F6259?style=for-the-badge&logo=gmail&logoColor=white)](mailto:frederikao@gmail.com)

@@ -8,7 +8,7 @@ import { siteContent } from "@/lib/site-content";
 export const metadata: Metadata = {
   title: "Work",
   description:
-    "Frederika Onofrejova’s professional perspective across finance leadership, FP&A, controllership, and international operations.",
+    "Frederika Onofrejová’s professional perspective across finance leadership, FP&A, controllership, and international operations.",
 };
 
 export default function WorkPage() {

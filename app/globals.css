@@ -469,6 +469,25 @@ p {
   isolation: isolate;
 }
 
+.portrait-image {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4 / 5;
+  margin: 0;
+  border: 1px solid var(--border);
+  background: var(--ivory);
+}
+
+.portrait-image img {
+  object-fit: cover;
+  object-position: center 38%;
+  transition: transform 900ms var(--ease);
+}
+
+.portrait-image:hover img {
+  transform: scale(1.015);
+}
+
 .image-placeholder--portrait {
   aspect-ratio: 4 / 5;
 }
@@ -877,6 +896,48 @@ p {
   color: var(--stone);
 }
 
+.footer-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: fit-content;
+}
+
+.footer-email__copy {
+  display: inline-grid;
+  width: 1.4rem;
+  height: 1.4rem;
+  padding: 0;
+  place-items: center;
+  color: var(--stone);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  transition:
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.footer-email__copy svg {
+  width: 0.9rem;
+  height: 0.9rem;
+  fill: none;
+  stroke: currentcolor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
+.footer-email__copy:hover {
+  color: var(--warm-white);
+  transform: translateY(-1px);
+}
+
+.footer-email__copy:focus-visible {
+  outline: 2px solid var(--warm-white);
+  outline-offset: 3px;
+}
+
 .site-footer__meta {
   grid-column: 1 / -1;
   display: flex;
@@ -922,6 +983,7 @@ p {
 }
 
 .page-feature .image-placeholder,
+.page-feature .portrait-image,
 .hff-overview .image-placeholder {
   max-width: 520px;
 }

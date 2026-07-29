@@ -7,7 +7,7 @@ import { notes } from "@/lib/site-content";
 export const metadata: Metadata = {
   title: "Notes",
   description:
-    "Occasional notes from Frederika Onofrejova on work, decisions, style, home, travel, and life across places.",
+    "Occasional notes from Frederika Onofrejová on work, decisions, style, home, travel, and life across places.",
 };
 
 export default function NotesPage() {
