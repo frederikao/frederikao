@@ -1,6 +1,6 @@
 # Personal website development guide
 
-A refined personal editorial website for Frederika Onofrejova, built with Next.js, TypeScript, semantic HTML, and a lightweight CSS/Intersection Observer motion system.
+A refined personal editorial website for Frederika Onofrejová, built with Next.js, TypeScript, semantic HTML, and a lightweight CSS/Intersection Observer motion system.
 
 ## Run locally
 

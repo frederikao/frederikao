@@ -1,10 +1,10 @@
 export const siteContent = {
-  name: "Frederika Onofrejova",
+  name: "Frederika Onofrejová",
   statement: "A life built with intention.",
   description:
-    "The personal website of Frederika Onofrejova—finance leader, founder of HFF, and thoughtful observer of work, style, and intentional living.",
+    "The personal website of Frederika Onofrejová—finance leader, founder of HFF, and thoughtful observer of work, style, and intentional living.",
   siteUrl: "https://frederikaonofrejova.netlify.app",
-  email: "", // TODO: Add a public contact email.
+  email: "frederikao@gmail.com",
   navigation: [
     { label: "Home", href: "/" },
     { label: "About", href: "/about" },
@@ -16,7 +16,6 @@ export const siteContent = {
   social: {
     linkedin: "https://www.linkedin.com/in/frederikaonofrejova/",
     hffInstagram: "https://www.instagram.com/hautefroufrou",
-    michael: "https://michaelcamilleri.net",
   },
   professionalFocus: [
     "Finance leadership",

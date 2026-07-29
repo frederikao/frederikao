@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FooterEmail } from "@/components/footer-email";
 import { siteContent } from "@/lib/site-content";
 
 export function Footer() {
@@ -27,16 +28,13 @@ export function Footer() {
             <span>HFF Instagram · link forthcoming</span>
           )}
           {siteContent.email ? (
-            <a href={`mailto:${siteContent.email}`}>Email</a>
+            <FooterEmail email={siteContent.email} />
           ) : (
             <span>Email · forthcoming</span>
           )}
         </div>
         <div className="site-footer__meta">
-          <p>© {new Date().getFullYear()} Frederika Onofrejova</p>
-          <a href={siteContent.social.michael} target="_blank" rel="noreferrer">
-            Michael Camilleri <span className="sr-only">(opens in a new tab)</span>
-          </a>
+          <p>© {new Date().getFullYear()} {siteContent.name}</p>
         </div>
       </div>
     </footer>

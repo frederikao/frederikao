@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { AnimatedReveal } from "@/components/animated-reveal";
 import { ImagePlaceholder } from "@/components/image-placeholder";
 import { PageIntro } from "@/components/page-intro";
+import { PortraitImage } from "@/components/portrait-image";
 import { SectionLabel } from "@/components/section-label";
 import { TextLink } from "@/components/text-link";
 import { siteContent } from "@/lib/site-content";
@@ -9,7 +10,7 @@ import { siteContent } from "@/lib/site-content";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "The person behind the work: Frederika Onofrejova’s perspective, professional foundation, HFF, and life across places.",
+    "The person behind the work: Frederika Onofrejová’s perspective, professional foundation, HFF, and life across places.",
 };
 
 const narrative = [
@@ -43,7 +44,7 @@ export default function AboutPage() {
       />
       <section className="page-feature shell">
         <AnimatedReveal>
-          <ImagePlaceholder label="Frederika — editorial portrait 4:5" ratio="portrait" />
+          <PortraitImage />
         </AnimatedReveal>
         <AnimatedReveal delay={100} className="page-feature__copy">
           <SectionLabel>In brief</SectionLabel>

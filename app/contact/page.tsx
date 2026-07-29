@@ -8,7 +8,7 @@ import { siteContent } from "@/lib/site-content";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact Frederika Onofrejova for professional conversations, HFF collaborations, or a thoughtful hello.",
+    "Contact Frederika Onofrejová for professional conversations, HFF collaborations, or a thoughtful hello.",
 };
 
 export default function ContactPage() {

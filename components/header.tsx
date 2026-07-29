@@ -56,8 +56,8 @@ export function Header() {
   return (
     <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
       <div className="site-header__inner shell">
-        <Link className="wordmark" href="/" aria-label="Frederika Onofrejova home">
-          Frederika Onofrejova
+        <Link className="wordmark" href="/" aria-label="Frederika Onofrejová home">
+          Frederika Onofrejová
         </Link>
         <nav className="desktop-nav" aria-label="Primary navigation">
           {siteContent.navigation.map((item) => (

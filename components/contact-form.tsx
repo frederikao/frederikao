@@ -108,7 +108,7 @@ export function ContactForm() {
       </button>
       <div aria-live="polite" className="form-status">
         {status === "notice" &&
-          "This preview is not connected yet. Please use LinkedIn for now."}
+          "This preview is not connected yet. Please use email or LinkedIn for now."}
       </div>
     </form>
   );

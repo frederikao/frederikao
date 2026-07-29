@@ -1,6 +1,7 @@
 import { AnimatedReveal } from "@/components/animated-reveal";
 import { ImagePlaceholder } from "@/components/image-placeholder";
 import { NoteCard } from "@/components/note-card";
+import { PortraitImage } from "@/components/portrait-image";
 import { SectionLabel } from "@/components/section-label";
 import { TextLink } from "@/components/text-link";
 import { notes, siteContent } from "@/lib/site-content";
@@ -10,7 +11,7 @@ export default function HomePage() {
     <>
       <section className="hero shell">
         <div className="hero__copy">
-          <p className="hero__eyebrow load-in load-in--1">Frederika Onofrejova</p>
+          <p className="hero__eyebrow load-in load-in--1">Frederika Onofrejová</p>
           <h1 className="load-in load-in--2">A life built with intention.</h1>
           <p className="hero__dek load-in load-in--3">
             Finance leader, founder of HFF, and a thoughtful observer of work,
@@ -21,7 +22,7 @@ export default function HomePage() {
           </TextLink>
         </div>
         <div className="hero__visual load-in load-in--3">
-          <ImagePlaceholder label="Hero portrait — vertical 4:5" ratio="portrait" />
+          <PortraitImage priority />
           <span className="hero__image-index">Portrait · 01</span>
         </div>
         <a className="scroll-cue" href="#perspective">
