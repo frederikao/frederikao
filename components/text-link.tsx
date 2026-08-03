@@ -17,7 +17,7 @@ export function TextLink({
     <Link
       className={`text-link ${className}`}
       href={href}
-      {...(external ? { target: "_blank", rel: "noreferrer" } : {})}
+      {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
     >
       <span>{children}</span>
       <span aria-hidden="true" className="text-link__arrow">

@@ -6,10 +6,12 @@ export function AnimatedReveal({
   children,
   className = "",
   delay = 0,
+  ariaHidden,
 }: {
   children: React.ReactNode;
   className?: string;
   delay?: number;
+  ariaHidden?: boolean;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
@@ -35,6 +37,7 @@ export function AnimatedReveal({
   return (
     <div
       ref={ref}
+      aria-hidden={ariaHidden}
       className={`reveal ${visible ? "is-visible" : ""} ${className}`}
       style={{ "--reveal-delay": `${delay}ms` } as React.CSSProperties}
     >
