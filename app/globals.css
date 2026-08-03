@@ -65,7 +65,8 @@ p { max-width: 68ch; }
 .hero { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(280px, .6fr); align-items: end; gap: clamp(3rem, 6.5vw, 6rem); padding-top: 104px; padding-bottom: 48px; }
 .hero__copy { padding-bottom: 1.5rem; }
 .hero__eyebrow { margin-bottom: 1.15rem; color: var(--taupe); font-size: .72rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
-.hero h1 { max-width: 8.8ch; margin-bottom: 1.25rem; }
+.hero h1 { width: fit-content; max-width: none; margin-bottom: 1.25rem; }
+.hero h1 span { display: block; white-space: nowrap; }
 .hero__dek { max-width: 58ch; margin-bottom: .9rem; color: var(--taupe); font-size: clamp(.98rem, 1.1vw, 1.06rem); }
 .hero__actions { display: flex; flex-wrap: wrap; gap: .5rem 2rem; }
 .hero__visual { width: min(100%, 380px); justify-self: end; }
@@ -100,20 +101,18 @@ p { max-width: 68ch; }
 .contact__inner { display: grid; justify-items: center; }
 .contact h2 { margin-bottom: .65rem; }
 .contact p { margin-bottom: .55rem; color: var(--taupe); }
-.contact__links { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem 2rem; }
-.contact__links .footer-email { min-height: 46px; font-size: .79rem; font-weight: 650; }
-.contact__links .footer-email__copy { color: var(--taupe); }
+.contact__links { display: grid; grid-template-columns: repeat(3, max-content); justify-content: center; column-gap: clamp(1.5rem, 3.2vw, 2.75rem); }
 
-.site-footer { padding: 2.25rem 0 1.25rem; color: var(--warm-white); background: var(--charcoal); }
-.site-footer__grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 1.75rem 3rem; align-items: start; }
+.site-footer { padding: 1.75rem 0 1rem; color: var(--warm-white); background: var(--charcoal); }
+.site-footer__grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 1.2rem 3rem; align-items: start; }
 .site-footer__name { font-family: var(--font-serif); font-size: clamp(1.4rem, 2vw, 1.9rem); }
-.site-footer__links { display: grid; align-content: start; gap: .15rem; font-size: .76rem; }
-.site-footer__links > a, .footer-email > a { display: inline-flex; align-items: center; min-height: 32px; }
+.site-footer__links { display: grid; align-content: start; gap: 0; font-size: .76rem; }
+.site-footer__links > a, .footer-email > a { display: inline-flex; align-items: center; min-height: 30px; }
 .site-footer__links > a span { color: var(--stone); }
 .footer-email { display: inline-flex; align-items: center; gap: .4rem; width: fit-content; }
 .footer-email__copy { display: inline-grid; width: 1.4rem; height: 1.4rem; padding: 0; place-items: center; color: var(--stone); background: transparent; border: 0; }
 .footer-email__copy svg { width: .9rem; height: .9rem; fill: none; stroke: currentcolor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.7; }
-.site-footer__meta { grid-column: 1 / -1; padding-top: 1rem; border-top: 1px solid rgb(255 255 255 / 20%); color: var(--stone); font-size: .7rem; }
+.site-footer__meta { grid-column: 1 / -1; padding-top: .7rem; border-top: 1px solid rgb(255 255 255 / 20%); color: var(--stone); font-size: .7rem; }
 .site-footer__meta p { margin: 0; }
 
 @media (max-width: 1100px) {
@@ -140,7 +139,7 @@ p { max-width: 68ch; }
   .site-header, .site-header.is-scrolled { height: var(--header-height); }
   .hero { display: flex; flex-direction: column; align-items: stretch; gap: 2rem; padding-top: 96px; padding-bottom: 3.5rem; }
   .hero__copy { padding-bottom: 0; }
-  .hero h1 { max-width: 9ch; font-size: clamp(3.05rem, 14.5vw, 4.2rem); }
+  .hero h1 { font-size: clamp(3.05rem, 14.5vw, 4.2rem); }
   .hero__actions { gap: .25rem 1.25rem; }
   .hero__visual { width: 76%; margin-left: auto; }
   .label-grid { grid-template-columns: 1fr; }
@@ -150,7 +149,8 @@ p { max-width: 68ch; }
   .hff-mark { width: 100%; min-height: 240px; }
   .hff-mark span { font-size: clamp(4rem, 22vw, 6rem); }
   .contact { padding-block: 3.25rem; }
-  .site-footer { padding-top: 1.9rem; }
+  .contact__links { grid-template-columns: 1fr; justify-items: center; row-gap: 0; }
+  .site-footer { padding-top: 1.5rem; }
   .site-footer__grid { grid-template-columns: 1fr; gap: 1.25rem; }
 }
 
