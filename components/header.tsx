@@ -1,12 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { siteContent } from "@/lib/site-content";
 
 export function Header() {
-  const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -64,7 +62,6 @@ export function Header() {
             <Link
               href={item.href}
               key={item.href}
-              aria-current={pathname === item.href ? "page" : undefined}
             >
               {item.label}
             </Link>
