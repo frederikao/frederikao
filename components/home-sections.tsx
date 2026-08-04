@@ -1,8 +1,10 @@
 import { AnimatedReveal } from "@/components/animated-reveal";
+import { NotePreview } from "@/components/note-preview";
 import { PortraitImage } from "@/components/portrait-image";
 import { SectionLabel } from "@/components/section-label";
 import { TextLink } from "@/components/text-link";
 import { siteContent } from "@/lib/site-content";
+import { getAllNotes } from "@/lib/notes";
 
 export function HeroSection() {
   return (
@@ -108,6 +110,27 @@ export function HffSection() {
           </ul>
           <TextLink href={siteContent.social.hffInstagram} external>Follow HFF on Instagram</TextLink>
         </AnimatedReveal>
+      </div>
+    </section>
+  );
+}
+
+export function NotesSection() {
+  const notes = getAllNotes();
+
+  return (
+    <section className="section section--ivory anchor-section notes-section" id="notes" aria-labelledby="notes-title">
+      <div className="shell">
+        <AnimatedReveal className="notes-heading">
+          <div>
+            <SectionLabel>Writing</SectionLabel>
+            <h2 id="notes-title">Notes.</h2>
+          </div>
+          <p>Occasional thoughts on fashion, shopping, value and the ideas behind HFF.</p>
+        </AnimatedReveal>
+        <div className="notes-entries">
+          {notes.map((note) => <NotePreview key={note.slug} note={note} />)}
+        </div>
       </div>
     </section>
   );

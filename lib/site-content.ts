@@ -9,6 +9,7 @@ export const siteContent = {
     { label: "About", href: "/#about" },
     { label: "Work", href: "/#work" },
     { label: "HFF", href: "/#hff" },
+    { label: "Notes", href: "/#notes" },
     { label: "Contact", href: "/#contact" },
   ],
   social: {

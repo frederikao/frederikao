@@ -1,4 +1,4 @@
-import { AboutSection, ContactSection, HeroSection, HffSection, WorkSection } from "@/components/home-sections";
+import { AboutSection, ContactSection, HeroSection, HffSection, NotesSection, WorkSection } from "@/components/home-sections";
 
 export default function HomePage() {
   return (
@@ -7,6 +7,7 @@ export default function HomePage() {
       <AboutSection />
       <WorkSection />
       <HffSection />
+      <NotesSection />
       <ContactSection />
     </>
   );
