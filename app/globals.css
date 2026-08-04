@@ -154,7 +154,8 @@ p { max-width: 68ch; }
   .menu-button { display: flex; }
   .hero { grid-template-columns: 1.15fr .85fr; gap: 2.5rem; padding-top: 92px; padding-bottom: 40px; }
   .about-grid, .editorial-grid { grid-template-columns: 1fr; gap: 2rem; }
-  .about-grid h2, .editorial-grid h2 { max-width: 12ch; }
+  .about-grid h2 { max-width: 14ch; }
+  .editorial-grid h2 { max-width: 12ch; }
   .hff-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .hff-mark { width: min(100%, 520px); min-height: 280px; }
   .notes-heading { grid-template-columns: 1fr; gap: 1rem; }

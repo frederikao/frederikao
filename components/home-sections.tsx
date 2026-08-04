@@ -43,7 +43,7 @@ export function AboutSection() {
       <AnimatedReveal className="shell about-grid">
         <div>
           <SectionLabel>About</SectionLabel>
-          <h2 id="about-title">A considered life, across places.</h2>
+          <h2 id="about-title">A{"\u00a0"}considered life, across places.</h2>
         </div>
         <div className="about-copy">
           <p className="large-copy">
