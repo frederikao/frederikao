@@ -49,10 +49,10 @@ export function AboutSection() {
             which trade-offs are worthwhile, and what continues to feel right over time.
           </p>
           <p>
-            Away from work, I’m usually researching a home project, planning our next trip with
-            Michael, taking a Pilates or Lagree class, or being a devoted mum to Gaston, our
-            adorable Frenchie. Slovakia is where my story began, Seattle is home today, and Malta
-            is increasingly part of our future.
+            Away from work, I’m usually researching a home project, traveling with Michael,
+            taking a Pilates or Lagree class, thinking about fashion and my next great find, or
+            being a devoted mum to Gaston, our adorable Frenchie. Slovakia is where my story
+            began, Seattle is home today, and Malta is increasingly part of our future.
           </p>
           <p className="place-line" aria-label="Places connected to Frederika">Slovakia <span>·</span> Seattle <span>·</span> Malta</p>
         </div>
