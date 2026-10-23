@@ -74,9 +74,13 @@ export function WorkSection() {
         </AnimatedReveal>
         <AnimatedReveal delay={80} className="editorial-copy">
           <p className="large-copy">
-            I work across financial planning, controllership, international operations and
-            business strategy, turning complex information into clear decisions and dependable
-            financial structures.
+            My career has taken me from hands-on accounting to leading finance across
+            Xevo&apos;s US and Japan operations, within Lear Corporation.
+          </p>
+          <p>
+            I work across financial planning, controllership and business strategy.
+            I value understanding the detail behind the numbers, while keeping sight
+            of the bigger decisions they help inform.
           </p>
           <ul className="label-grid" aria-label="Areas of focus">
             {siteContent.professionalFocus.map((area, index) => (
