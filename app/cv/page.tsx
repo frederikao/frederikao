@@ -233,10 +233,8 @@ export default function CvPage() {
           <SectionTitle id="cv-earlier">Earlier Experience</SectionTitle>
           {cv.earlier.map((employer) => (
             <div className="cv-employer" key={employer.company}>
-              <h3 className="cv-employer__name">
-                {employer.company}<Dot />
-                <span className="cv-employer__location">{employer.location}</span>
-              </h3>
+              <h3 className="cv-employer__name">{employer.company}</h3>
+              <p className="cv-employer__location">{employer.location}</p>
               {employer.roles.map((role) => <Role role={role} key={role.title} />)}
             </div>
           ))}
