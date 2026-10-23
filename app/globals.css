@@ -129,17 +129,13 @@ p { max-width: 68ch; }
 .contact p { margin-bottom: .55rem; color: var(--taupe); }
 .contact__links { display: grid; grid-template-columns: repeat(3, max-content); justify-content: center; column-gap: clamp(1.5rem, 3.2vw, 2.75rem); }
 
-.site-footer { padding: 1.75rem 0 1rem; color: var(--warm-white); background: var(--charcoal); }
-.site-footer__grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 1.2rem 3rem; align-items: start; }
-.site-footer__name { font-family: var(--font-serif); font-size: clamp(1.4rem, 2vw, 1.9rem); }
-.site-footer__links { display: grid; align-content: start; gap: 0; font-size: .76rem; }
-.site-footer__links > a, .footer-email > a { display: inline-flex; align-items: center; min-height: 30px; }
-.site-footer__links > a span { color: var(--stone); }
-.footer-email { display: inline-flex; align-items: center; gap: .4rem; width: fit-content; }
-.footer-email__copy { display: inline-grid; width: 1.4rem; height: 1.4rem; padding: 0; place-items: center; color: var(--stone); background: transparent; border: 0; }
-.footer-email__copy svg { width: .9rem; height: .9rem; fill: none; stroke: currentcolor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.7; }
-.site-footer__meta { grid-column: 1 / -1; padding-top: .7rem; border-top: 1px solid rgb(255 255 255 / 20%); color: var(--stone); font-size: .7rem; }
-.site-footer__meta p { margin: 0; }
+.copy-email { display: inline-flex; flex-direction: column; align-items: center; }
+.copy-email__button { padding-inline: .1rem; border: 0; background: transparent; }
+.copy-email__icon { width: .9rem; height: .9rem; fill: none; stroke: currentcolor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.7; }
+.copy-email__fallback { color: var(--taupe); font-size: .72rem; overflow-wrap: anywhere; }
+
+.site-footer { padding: 1.35rem 0; color: var(--warm-white); background: var(--charcoal); }
+.site-footer__copyright { margin: 0; color: var(--stone); font-size: .7rem; }
 
 @media (max-width: 1100px) {
   :root { --section-space: 4.75rem; }
@@ -189,8 +185,6 @@ p { max-width: 68ch; }
   .article-body h2 { margin-top: 3rem; }
   .contact { padding-block: 3.25rem; }
   .contact__links { grid-template-columns: 1fr; justify-items: center; row-gap: 0; }
-  .site-footer { padding-top: 1.5rem; }
-  .site-footer__grid { grid-template-columns: 1fr; gap: 1.25rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
