@@ -3,8 +3,8 @@ export const siteContent = {
   statement: "A life built with intention.",
   description:
     "The personal website of Frederika Onofrejová—finance leader, founder of HFF, and thoughtful observer of work, style, and intentional living.",
-  siteUrl: "https://frederikaonofrejova.netlify.app",
-  email: "frederikao@gmail.com",
+  siteUrl: "https://frederikaonofrejova.com",
+  email: "hello@frederikaonofrejova.com",
   navigation: [
     { label: "About", href: "/#about" },
     { label: "Work", href: "/#work" },
