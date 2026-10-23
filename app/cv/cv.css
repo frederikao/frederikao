@@ -17,7 +17,7 @@
 .cv-intro h1 {
   margin-bottom: 1.05rem;
   font-family: var(--font-serif);
-  font-size: clamp(2.8rem, 5.7vw, 5.25rem);
+  font-size: clamp(2.5rem, 4.25vw, 3.85rem);
   font-weight: 500;
   line-height: 1.08;
   letter-spacing: -.04em;
@@ -42,12 +42,13 @@
 .cv-dot {
   display: inline-block;
   margin-inline: .72em;
-  color: var(--stone);
+  color: var(--taupe);
   font-family: var(--font-sans);
-  font-size: .77em;
-  font-weight: 400;
+  font-size: 1em;
+  font-weight: 600;
   font-style: normal;
-  vertical-align: .08em;
+  line-height: 1;
+  vertical-align: baseline;
 }
 
 .cv-intro__contact {
@@ -117,7 +118,7 @@
 .cv-employer + .cv-employer { margin-top: 2.5rem; }
 
 .cv-employer__name {
-  margin: 0 0 .55rem;
+  margin: 0 0 .35rem;
   font-family: var(--font-serif);
   font-size: clamp(1.55rem, 2.3vw, 1.95rem);
   font-weight: 500;
@@ -125,14 +126,14 @@
   letter-spacing: -.025em;
 }
 
-.cv-employer__name .cv-dot { margin-inline: .52em; }
 .cv-employer__location {
+  margin: 0 0 .8rem;
   color: var(--taupe);
   font-family: var(--font-sans);
-  font-size: .8rem;
-  font-weight: 400;
-  letter-spacing: 0;
-  vertical-align: .14em;
+  font-size: .82rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: .02em;
 }
 
 .cv-role + .cv-role { margin-top: 1.4rem; }
@@ -186,7 +187,7 @@
 
 @media (max-width: 640px) {
   .cv-intro { padding: 7.75rem 0 3rem; }
-  .cv-intro h1 { font-size: clamp(2.55rem, 10vw, 3.65rem); }
+  .cv-intro h1 { font-size: clamp(2.1rem, 8.4vw, 3.1rem); }
   .cv-intro__headline { max-width: 24rem; margin-bottom: 1.3rem; }
   .cv-intro__contact { max-width: 26rem; font-size: .78rem; }
   .cv-dot { margin-inline: .5em; }
@@ -194,7 +195,7 @@
   .cv-profile { font-size: 1.18rem; }
   .cv-expertise { font-size: .84rem; }
   .cv-employer__name { font-size: 1.58rem; }
-  .cv-employer__location { font-size: .75rem; }
+  .cv-employer__location { font-size: .78rem; }
   .cv-role__heading { font-size: .85rem; }
   .cv-bullets li, .cv-education__entry { font-size: .9rem; }
 }
@@ -204,7 +205,7 @@
   html, body, .cv-page { background: #fff !important; color: #282726 !important; }
   .site-header, .site-footer, .skip-link { display: none !important; }
   .cv-intro { padding: 0 0 .35in; background: #fff; }
-  .cv-intro h1 { font-size: 27pt; }
+  .cv-intro h1 { font-size: 25pt; }
   .cv-intro__headline { font-size: 8.5pt; margin-bottom: .12in; }
   .cv-intro__contact { padding-top: .1in; font-size: 8pt; }
   .cv-body { width: 100%; max-width: none; padding: 0; }
@@ -214,6 +215,7 @@
   .cv-expertise { font-size: 8.5pt; line-height: 1.4; }
   .cv-employer__name { font-size: 13pt; }
   .cv-employer__location, .cv-role__heading { font-size: 8.5pt; }
+  .cv-employer__location { margin-bottom: .05in; }
   .cv-role + .cv-role { margin-top: .08in; }
   .cv-role__heading { margin-bottom: .035in; }
   .cv-bullets { gap: .04in; margin-top: .05in; }
