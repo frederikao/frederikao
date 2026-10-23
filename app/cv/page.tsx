@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 };
 
 const cv = {
-  "name": "FREDERIKA ONOFREJOVA",
+  "name": "FREDERIKA ONOFREJOVÁ",
   "headline": [
     "FINANCE DIRECTOR",
     "HEAD OF FINANCE",
