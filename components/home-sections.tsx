@@ -1,4 +1,5 @@
 import { AnimatedReveal } from "@/components/animated-reveal";
+import { CopyEmail } from "@/components/copy-email";
 import { NotePreview } from "@/components/note-preview";
 import { PortraitImage } from "@/components/portrait-image";
 import { SectionLabel } from "@/components/section-label";
@@ -146,7 +147,7 @@ export function ContactSection() {
         <div className="contact__links">
           <TextLink href={siteContent.social.linkedin} external>LinkedIn</TextLink>
           <TextLink href={siteContent.social.hffInstagram} external>HFF Instagram</TextLink>
-          <TextLink href={`mailto:${siteContent.email}`}>Email</TextLink>
+          <CopyEmail email={siteContent.email} />
         </div>
       </AnimatedReveal>
     </section>
